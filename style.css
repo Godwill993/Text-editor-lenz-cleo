@@ -2,12 +2,15 @@
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    background-color: #747272;
+    width: 100%;
 }
 .tools-for-edit button{
     background: none;
     border: none;
     cursor: pointer;
     font-size: 20px;
+    
 }
 .each-toool{
     width: fit-content;
