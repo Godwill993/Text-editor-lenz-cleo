@@ -21,7 +21,7 @@
     
 }
 select option{
-    background: #ebe7e7;
+    background: #f1f1f1;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -31,11 +31,11 @@ select option{
     height: fit-content;
     padding: 5px;
     border: 1px solid black;
-    background: #747272;
+    background: #f1f1f1;
     border-radius: 5px;
 }
 select{
-    background: #747272;
+    background: #f1f1f1;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -45,9 +45,9 @@ select{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: grey;
+    background-color: #f1f1f1;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -61,7 +61,6 @@ select{
     border: none;
     outline: none;
     background-color: #f1f1f1;
-    margin-top: 14px;
     display: flex;
     justify-content: center;
     
@@ -76,5 +75,9 @@ select{
     padding: 10px;
     border: none;
     outline: none;
+    border: 1px solid black;
     background-color: #f1f1f1;
+}
+.tools-for-edit{
+    background: #f1f1f1;
 }
