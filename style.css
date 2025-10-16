@@ -4,6 +4,26 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+      :root {
+        --bg: #0f1720;
+        --panel: #0b1220;
+        --muted: #9aa6b2;
+        --accent: #16a34a;
+        --text: #e6eef3;
+        --toolbar: #0b1320;
+        --btn-hover: #12302a;
+        --editor-bg: #071018;
+      }
+      [data-theme="light"] {
+        --bg: #f6f7f9;
+        --panel: #ffffff;
+        --muted: #475569;
+        --accent: #059669;
+        --text: #0b1220;
+        --toolbar: #f1f5f9;
+        --btn-hover: #e2efe8;
+        --editor-bg: #ffffff;
+      }
 .tools-for-edit{
     display: flex;
     gap: 10px;
