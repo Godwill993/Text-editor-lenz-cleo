@@ -101,3 +101,10 @@ select{
 .tools-for-edit{
     background: #f1f1f1;
 }
+button:hover{
+    background-color: #e2efe8;
+    border-radius: 5px;
+}
+button:active{
+    background-color: #d4e8e0;
+}
